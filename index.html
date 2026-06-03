@@ -94,49 +94,49 @@ This content is for general management training purposes only and does not refle
   <div class="sidebar-logo">
     <div class="co">Array Records Retrieval</div>
     <div class="div">Texas Division Hub</div>
-    <div style="font-size:10px;color:#bbb;margin-top:6px;">v4.9 &nbsp;·&nbsp; Updated May 29, 2026</div>
+    <div style="font-size:10px;color:#bbb;margin-top:6px;">v5.0 &nbsp;·&nbsp; Updated June 3, 2026</div>
   </div>
   <div class="nav-section">
     <div class="nav-section-label">Division</div>
-    <button class="nav-item on" onclick="nav('overview')">Overview</button>
-    <button class="nav-item" onclick="nav('directive')">Leadership Directive</button>
-    <button class="nav-item" onclick="nav('quiz')">Manager Assessment</button>
-    <button class="nav-item sub" onclick="nav('quiz');showQuizSub('test')" style="color:#aaa;">&#8627; Quiz</button>
-    <button class="nav-item sub" onclick="nav('quiz');showQuizSub('results')" style="color:#aaa;">&#8627; Prior Results</button>
-    <button class="nav-item" onclick="nav('disc')">Personality &amp; Coaching Profiles</button>
-    <button class="nav-item sub" onclick="nav('disc');showDiscSub('intro')" style="color:#aaa;">&#8627; About DISC</button>
-    <button class="nav-item sub" onclick="nav('disc');showDiscSub('enter')" style="color:#aaa;">&#8627; Enter Results</button>
-    <button class="nav-item sub" onclick="nav('disc');showDiscSub('map')" style="color:#aaa;">&#8627; Team Map</button>
-    <button class="nav-item" onclick="nav('facts')">Performance Standards Assessment</button>
-    <button class="nav-item sub" onclick="nav('facts');showFactsSub('training')" style="color:#aaa;">&#8627; Training Module</button>
-    <button class="nav-item sub" onclick="nav('facts');showFactsSub('quiz')" style="color:#aaa;">&#8627; Assessment Quiz</button>
-    <button class="nav-item" onclick="nav('jb')">Leadership Trainer (JB)</button>
-    <button class="nav-item sub" onclick="nav('jb');showJBSub('context')" style="color:#aaa;">&#8627; Division Context</button>
-    <button class="nav-item sub" onclick="nav('jb');showJBSub('appraisal')" style="color:#aaa;">&#8627; Leader Appraisals</button>
-    <button class="nav-item sub" onclick="nav('jb');showJBSub('jocko')" style="color:#aaa;">&#8627; Jocko Willink</button>
-    <button class="nav-item sub" onclick="nav('jb');showJBSub('sinek')" style="color:#aaa;">&#8627; Simon Sinek</button>
-    <button class="nav-item sub" onclick="nav('jb');showJBSub('servant')" style="color:#aaa;">&#8627; Servant Leadership Principles</button>
-    <button class="nav-item sub" onclick="nav('jb');showJBSub('musk')" style="color:#aaa;">&#8627; First Principles</button>
+    <button class="nav-item on" data-nav="overview">Overview</button>
+    <button class="nav-item" data-nav="directive">Leadership Directive</button>
+    <button class="nav-item" data-nav="quiz">Manager Assessment</button>
+    <button class="nav-item sub" data-nav="quiz" data-subfn="showQuizSub" data-sub="test" style="color:#aaa;">&#8627; Quiz</button>
+    <button class="nav-item sub" data-nav="quiz" data-subfn="showQuizSub" data-sub="results" style="color:#aaa;">&#8627; Prior Results</button>
+    <button class="nav-item" data-nav="disc">Personality &amp; Coaching Profiles</button>
+    <button class="nav-item sub" data-nav="disc" data-subfn="showDiscSub" data-sub="intro" style="color:#aaa;">&#8627; About DISC</button>
+    <button class="nav-item sub" data-nav="disc" data-subfn="showDiscSub" data-sub="enter" style="color:#aaa;">&#8627; Enter Results</button>
+    <button class="nav-item sub" data-nav="disc" data-subfn="showDiscSub" data-sub="map" style="color:#aaa;">&#8627; Team Map</button>
+    <button class="nav-item" data-nav="facts">Performance Standards Assessment</button>
+    <button class="nav-item sub" data-nav="facts" data-subfn="showFactsSub" data-sub="training" style="color:#aaa;">&#8627; Training Module</button>
+    <button class="nav-item sub" data-nav="facts" data-subfn="showFactsSub" data-sub="quiz" style="color:#aaa;">&#8627; Assessment Quiz</button>
+    <button class="nav-item" data-nav="jb">Leadership Trainer (JB)</button>
+    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="context" style="color:#aaa;">&#8627; Division Context</button>
+    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="appraisal" style="color:#aaa;">&#8627; Leader Appraisals</button>
+    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="jocko" style="color:#aaa;">&#8627; Jocko Willink</button>
+    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="sinek" style="color:#aaa;">&#8627; Simon Sinek</button>
+    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="servant" style="color:#aaa;">&#8627; Servant Leadership Principles</button>
+    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="musk" style="color:#aaa;">&#8627; First Principles</button>
   </div>
   <div class="nav-section" style="margin-top:8px;">
     <div class="nav-section-label">Departments</div>
-    <button class="nav-item" onclick="nav('intake')">Order Intake (EM)</button>
-    <button class="nav-item sub" onclick="nav('intake');showSub('diag')" style="color:#aaa;">&#8627; Diagnostic</button>
-    <button class="nav-item sub" onclick="nav('intake');showSub('cap')" style="color:#aaa;">&#8627; Capacity Model</button>
-    <button class="nav-item sub" onclick="nav('intake');showSub('fix')" style="color:#aaa;">&#8627; Corrective Framework</button>
-    <button class="nav-item sub" onclick="nav('intake');showSub('em')" style="color:#aaa;">&#8627; EM Directives</button>
-    <button class="nav-item" onclick="nav('logistics')">Orders Logistics (MG)</button>
-    <button class="nav-item sub" onclick="nav('logistics');showLogSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" onclick="nav('logistics');showLogSub('directive')" style="color:#aaa;">&#8627; MG Directives</button>
-    <button class="nav-item" onclick="nav('casemgr')">Case Mgrs / Expediting (JM)</button>
-    <button class="nav-item sub" onclick="nav('casemgr');showCaseSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" onclick="nav('casemgr');showCaseSub('directive')" style="color:#aaa;">&#8627; JM Directives</button>
-    <button class="nav-item" onclick="nav('records')">Records Intake (VA)</button>
-    <button class="nav-item sub" onclick="nav('records');showRecSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" onclick="nav('records');showRecSub('directive')" style="color:#aaa;">&#8627; VA Directives</button>
-    <button class="nav-item" onclick="nav('billing')">Billing &amp; Production (GG)</button>
-    <button class="nav-item sub" onclick="nav('billing');showBillSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" onclick="nav('billing');showBillSub('directive')" style="color:#aaa;">&#8627; GG Directives</button>
+    <button class="nav-item" data-nav="intake">Order Intake (EM)</button>
+    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="diag" style="color:#aaa;">&#8627; Diagnostic</button>
+    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="cap" style="color:#aaa;">&#8627; Capacity Model</button>
+    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="fix" style="color:#aaa;">&#8627; Corrective Framework</button>
+    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="em" style="color:#aaa;">&#8627; EM Directives</button>
+    <button class="nav-item" data-nav="logistics">Orders Logistics (MG)</button>
+    <button class="nav-item sub" data-nav="logistics" data-subfn="showLogSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" data-nav="logistics" data-subfn="showLogSub" data-sub="directive" style="color:#aaa;">&#8627; MG Directives</button>
+    <button class="nav-item" data-nav="casemgr">Case Mgrs / Expediting (JM)</button>
+    <button class="nav-item sub" data-nav="casemgr" data-subfn="showCaseSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" data-nav="casemgr" data-subfn="showCaseSub" data-sub="directive" style="color:#aaa;">&#8627; JM Directives</button>
+    <button class="nav-item" data-nav="records">Records Intake (VA)</button>
+    <button class="nav-item sub" data-nav="records" data-subfn="showRecSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" data-nav="records" data-subfn="showRecSub" data-sub="directive" style="color:#aaa;">&#8627; VA Directives</button>
+    <button class="nav-item" data-nav="billing">Billing &amp; Production (GG)</button>
+    <button class="nav-item sub" data-nav="billing" data-subfn="showBillSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" data-nav="billing" data-subfn="showBillSub" data-sub="directive" style="color:#aaa;">&#8627; GG Directives</button>
   </div>
 </div>
 
@@ -231,10 +231,10 @@ This content is for general management training purposes only and does not refle
   <h1>Order Intake Department</h1>
   <p class="subtitle">Manager: EM &nbsp;·&nbsp; Team: Emilee, Jamika, Jody, Sam Cruz, Amy, Kiera, Shannon, Tanya (8 members) &nbsp;·&nbsp; Order types: Subpoenas, Authorizations, DWQs &nbsp;·&nbsp; Avg volume: 102 locations/day &nbsp;·&nbsp; 99% email orders</p>
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="stab-diag" onclick="showSub('diag')">Diagnostic</button>
-    <button class="se" id="stab-cap" onclick="showSub('cap')">Capacity Model</button>
-    <button class="se" id="stab-fix" onclick="showSub('fix')">Corrective Framework</button>
-    <button class="se" id="stab-em" onclick="showSub('em')">EM Directives</button>
+    <button class="pr" id="stab-diag" data-intakesub="diag">Diagnostic</button>
+    <button class="se" id="stab-cap" data-intakesub="cap">Capacity Model</button>
+    <button class="se" id="stab-fix" data-intakesub="fix">Corrective Framework</button>
+    <button class="se" id="stab-em" data-intakesub="em">EM Directives</button>
   </div>
 
   <div id="intake-diag">
@@ -341,8 +341,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: MG &nbsp;·&nbsp; Team: Maria, Jasmine, Omar, Nancy, Ian (5 members) &nbsp;·&nbsp; Function: Payments, mail-outs, vendor coordination</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="logtab-overview" onclick="showLogSub('overview')">Overview &amp; Metrics</button>
-    <button class="se" id="logtab-directive" onclick="showLogSub('directive')">MG Directives</button>
+    <button class="pr" id="logtab-overview" data-logsub="overview">Overview &amp; Metrics</button>
+    <button class="se" id="logtab-directive" data-logsub="directive">MG Directives</button>
   </div>
 
   <div id="logsub-overview">
@@ -405,8 +405,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: JM &nbsp;·&nbsp; Team: Jennifer, D, Kiandra, Lisa, Alicia, Rashonda, Kathy (9 members) &nbsp;·&nbsp; Roles: Case Managers, Associate Case Managers, Records Retrieval Specialists (Expeditors)</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="casemgrtab-overview" onclick="showCaseSub('overview')">Overview &amp; Metrics</button>
-    <button class="se" id="casemgrtab-directive" onclick="showCaseSub('directive')">JM Directives</button>
+    <button class="pr" id="casemgrtab-overview" data-casesub="overview">Overview &amp; Metrics</button>
+    <button class="se" id="casemgrtab-directive" data-casesub="directive">JM Directives</button>
   </div>
 
   <div id="casemgrsub-overview">
@@ -469,8 +469,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: VA &nbsp;·&nbsp; Team: Venesa, Rashonda, April, Tashionda (4 members) &nbsp;·&nbsp; Function: Receive, QC, and route all incoming records</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="recordstab-overview" onclick="showRecSub('overview')">Overview &amp; Metrics</button>
-    <button class="se" id="recordstab-directive" onclick="showRecSub('directive')">VA Directives</button>
+    <button class="pr" id="recordstab-overview" data-recsub="overview">Overview &amp; Metrics</button>
+    <button class="se" id="recordstab-directive" data-recsub="directive">VA Directives</button>
   </div>
 
   <div id="recordssub-overview">
@@ -534,8 +534,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: GG &nbsp;·&nbsp; Team: GG, Priscilla, Eric, Sam (4 members + GG) &nbsp;·&nbsp; Function: QC, invoice generation, NOD filing, client delivery</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="billingtab-overview" onclick="showBillSub('overview')">Overview &amp; Metrics</button>
-    <button class="se" id="billingtab-directive" onclick="showBillSub('directive')">GG Directives</button>
+    <button class="pr" id="billingtab-overview" data-billsub="overview">Overview &amp; Metrics</button>
+    <button class="se" id="billingtab-directive" data-billsub="directive">GG Directives</button>
   </div>
 
   <div id="billingsub-overview">
@@ -604,8 +604,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">60% or higher = passes threshold &nbsp;·&nbsp; Below 60% = development plan triggered &nbsp;·&nbsp; Each manager takes this independently</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="qtab-test" onclick="showQuizSub('test')">Take Quiz</button>
-    <button class="se" id="qtab-results" onclick="showQuizSub('results')">Prior Results</button>
+    <button class="pr" id="qtab-test" data-quizsub="test">Take Quiz</button>
+    <button class="se" id="qtab-results" data-quizsub="results">Prior Results</button>
   </div>
 
   <!-- QUIZ TAB -->
@@ -654,9 +654,9 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Array Records Retrieval — Texas Division &nbsp;·&nbsp; Powered by DISC &nbsp;·&nbsp; Assessment provider: Crystal Knows (crystalknows.com)</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="disctab-intro" onclick="showDiscSub('intro')">About DISC</button>
-    <button class="se" id="disctab-enter" onclick="showDiscSub('enter')">Enter Results</button>
-    <button class="se" id="disctab-map" onclick="showDiscSub('map')">Team Map</button>
+    <button class="pr" id="disctab-intro" data-discsub="intro">About DISC</button>
+    <button class="se" id="disctab-enter" data-discsub="enter">Enter Results</button>
+    <button class="se" id="disctab-map" data-discsub="map">Team Map</button>
   </div>
 
   <!-- ABOUT DISC -->
@@ -772,8 +772,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Array Records Retrieval — Texas Division &nbsp;·&nbsp; Required for all managers before any PIP, CAP, or Termination escalation</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="factstab-training" onclick="showFactsSub('training')">Training Module</button>
-    <button class="se" id="factstab-quiz" onclick="showFactsSub('quiz')">Assessment Quiz</button>
+    <button class="pr" id="factstab-training" data-factssub="training">Training Module</button>
+    <button class="se" id="factstab-quiz" data-factssub="quiz">Assessment Quiz</button>
   </div>
 
   <!-- TRAINING MODULE -->
@@ -860,12 +860,12 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Prepared for JB — Leadership Trainer &nbsp;·&nbsp; Array Records Retrieval, Texas Division</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="jbtab-context" onclick="showJBSub('context')">Division Context</button>
-    <button class="se" id="jbtab-appraisal" onclick="showJBSub('appraisal')">Leader Appraisals</button>
-    <button class="se" id="jbtab-jocko" onclick="showJBSub('jocko')">Jocko Willink</button>
-    <button class="se" id="jbtab-sinek" onclick="showJBSub('sinek')">Simon Sinek</button>
-    <button class="se" id="jbtab-servant" onclick="showJBSub('servant')">Servant Leadership Principles</button>
-    <button class="se" id="jbtab-musk" onclick="showJBSub('musk')">Elon Musk / First Principles</button>
+    <button class="pr" id="jbtab-context" data-jbsub="context">Division Context</button>
+    <button class="se" id="jbtab-appraisal" data-jbsub="appraisal">Leader Appraisals</button>
+    <button class="se" id="jbtab-jocko" data-jbsub="jocko">Jocko Willink</button>
+    <button class="se" id="jbtab-sinek" data-jbsub="sinek">Simon Sinek</button>
+    <button class="se" id="jbtab-servant" data-jbsub="servant">Servant Leadership Principles</button>
+    <button class="se" id="jbtab-musk" data-jbsub="musk">Elon Musk / First Principles</button>
   </div>
 
   <!-- CONTEXT -->
@@ -1934,6 +1934,54 @@ function resetFQ(){
 
 // Ensure all nav functions are on window scope for Safari onclick compatibility
 window.nav = nav;
+
+// Delegated event listener for all navigation - CSP safe
+document.addEventListener('click', function(e) {
+  var el = e.target;
+  // Walk up to find a button with data attributes
+  while(el && el.tagName !== 'BUTTON' && el !== document.body) {
+    el = el.parentElement;
+  }
+  if(!el) return;
+
+  var navTarget = el.getAttribute('data-nav');
+  var subFn = el.getAttribute('data-subfn');
+  var subTarget = el.getAttribute('data-sub');
+  var quizSub = el.getAttribute('data-quizsub');
+  var intakeSub = el.getAttribute('data-intakesub');
+  var logSub = el.getAttribute('data-logsub');
+  var caseSub = el.getAttribute('data-casesub');
+  var recSub = el.getAttribute('data-recsub');
+  var billSub = el.getAttribute('data-billsub');
+  var discSub = el.getAttribute('data-discsub');
+  var factsSub = el.getAttribute('data-factssub');
+  var jbSub = el.getAttribute('data-jbsub');
+
+  if(navTarget) {
+    nav(navTarget);
+    if(subFn && subTarget) {
+      if(subFn === 'showJBSub') showJBSub(subTarget);
+      else if(subFn === 'showDiscSub') showDiscSub(subTarget);
+      else if(subFn === 'showFactsSub') showFactsSub(subTarget);
+      else if(subFn === 'showQuizSub') showQuizSub(subTarget);
+      else if(subFn === 'showLogSub') showLogSub(subTarget);
+      else if(subFn === 'showCaseSub') showCaseSub(subTarget);
+      else if(subFn === 'showRecSub') showRecSub(subTarget);
+      else if(subFn === 'showBillSub') showBillSub(subTarget);
+      else if(subFn === 'showSub') showSub(subTarget);
+    }
+  }
+  if(quizSub) showQuizSub(quizSub);
+  if(intakeSub) showSub(intakeSub);
+  if(logSub) showLogSub(logSub);
+  if(caseSub) showCaseSub(caseSub);
+  if(recSub) showRecSub(recSub);
+  if(billSub) showBillSub(billSub);
+  if(discSub) showDiscSub(discSub);
+  if(factsSub) showFactsSub(factsSub);
+  if(jbSub) showJBSub(jbSub);
+});
+
 window.showSub = showSub;
 window.showQuizSub = showQuizSub;
 window.showJBSub = showJBSub;
