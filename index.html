@@ -94,49 +94,49 @@ This content is for general management training purposes only and does not refle
   <div class="sidebar-logo">
     <div class="co">Array Records Retrieval</div>
     <div class="div">Texas Division Hub</div>
-    <div style="font-size:10px;color:#bbb;margin-top:6px;">v5.0 &nbsp;·&nbsp; Updated June 3, 2026</div>
+    <div style="font-size:10px;color:#bbb;margin-top:6px;">v5.1 &nbsp;·&nbsp; Updated June 3, 2026</div>
   </div>
   <div class="nav-section">
     <div class="nav-section-label">Division</div>
-    <button class="nav-item on" data-nav="overview">Overview</button>
-    <button class="nav-item" data-nav="directive">Leadership Directive</button>
-    <button class="nav-item" data-nav="quiz">Manager Assessment</button>
-    <button class="nav-item sub" data-nav="quiz" data-subfn="showQuizSub" data-sub="test" style="color:#aaa;">&#8627; Quiz</button>
-    <button class="nav-item sub" data-nav="quiz" data-subfn="showQuizSub" data-sub="results" style="color:#aaa;">&#8627; Prior Results</button>
-    <button class="nav-item" data-nav="disc">Personality &amp; Coaching Profiles</button>
-    <button class="nav-item sub" data-nav="disc" data-subfn="showDiscSub" data-sub="intro" style="color:#aaa;">&#8627; About DISC</button>
-    <button class="nav-item sub" data-nav="disc" data-subfn="showDiscSub" data-sub="enter" style="color:#aaa;">&#8627; Enter Results</button>
-    <button class="nav-item sub" data-nav="disc" data-subfn="showDiscSub" data-sub="map" style="color:#aaa;">&#8627; Team Map</button>
-    <button class="nav-item" data-nav="facts">Performance Standards Assessment</button>
-    <button class="nav-item sub" data-nav="facts" data-subfn="showFactsSub" data-sub="training" style="color:#aaa;">&#8627; Training Module</button>
-    <button class="nav-item sub" data-nav="facts" data-subfn="showFactsSub" data-sub="quiz" style="color:#aaa;">&#8627; Assessment Quiz</button>
-    <button class="nav-item" data-nav="jb">Leadership Trainer (JB)</button>
-    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="context" style="color:#aaa;">&#8627; Division Context</button>
-    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="appraisal" style="color:#aaa;">&#8627; Leader Appraisals</button>
-    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="jocko" style="color:#aaa;">&#8627; Jocko Willink</button>
-    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="sinek" style="color:#aaa;">&#8627; Simon Sinek</button>
-    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="servant" style="color:#aaa;">&#8627; Servant Leadership Principles</button>
-    <button class="nav-item sub" data-nav="jb" data-subfn="showJBSub" data-sub="musk" style="color:#aaa;">&#8627; First Principles</button>
+    <button class="nav-item on" onclick="nav('overview')">Overview</button>
+    <button class="nav-item" onclick="nav('directive')">Leadership Directive</button>
+    <button class="nav-item" onclick="nav('quiz')">Manager Assessment</button>
+    <button class="nav-item sub" onclick="nav('quiz');showQuizSub('test')" style="color:#aaa;">&#8627; Quiz</button>
+    <button class="nav-item sub" onclick="nav('quiz');showQuizSub('results')" style="color:#aaa;">&#8627; Prior Results</button>
+    <button class="nav-item" onclick="nav('disc')">Personality &amp; Coaching Profiles</button>
+    <button class="nav-item sub" onclick="nav('disc');showDiscSub('intro')" style="color:#aaa;">&#8627; About DISC</button>
+    <button class="nav-item sub" onclick="nav('disc');showDiscSub('enter')" style="color:#aaa;">&#8627; Enter Results</button>
+    <button class="nav-item sub" onclick="nav('disc');showDiscSub('map')" style="color:#aaa;">&#8627; Team Map</button>
+    <button class="nav-item" onclick="nav('facts')">Performance Standards Assessment</button>
+    <button class="nav-item sub" onclick="nav('facts');showFactsSub('training')" style="color:#aaa;">&#8627; Training Module</button>
+    <button class="nav-item sub" onclick="nav('facts');showFactsSub('quiz')" style="color:#aaa;">&#8627; Assessment Quiz</button>
+    <button class="nav-item" onclick="nav('jb')">Leadership Trainer (JB)</button>
+    <button class="nav-item sub" onclick="nav('jb');showJBSub('context')" style="color:#aaa;">&#8627; Division Context</button>
+    <button class="nav-item sub" onclick="nav('jb');showJBSub('appraisal')" style="color:#aaa;">&#8627; Leader Appraisals</button>
+    <button class="nav-item sub" onclick="nav('jb');showJBSub('jocko')" style="color:#aaa;">&#8627; Jocko Willink</button>
+    <button class="nav-item sub" onclick="nav('jb');showJBSub('sinek')" style="color:#aaa;">&#8627; Simon Sinek</button>
+    <button class="nav-item sub" onclick="nav('jb');showJBSub('servant')" style="color:#aaa;">&#8627; Servant Leadership Principles</button>
+    <button class="nav-item sub" onclick="nav('jb');showJBSub('musk')" style="color:#aaa;">&#8627; First Principles</button>
   </div>
   <div class="nav-section" style="margin-top:8px;">
     <div class="nav-section-label">Departments</div>
-    <button class="nav-item" data-nav="intake">Order Intake (EM)</button>
-    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="diag" style="color:#aaa;">&#8627; Diagnostic</button>
-    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="cap" style="color:#aaa;">&#8627; Capacity Model</button>
-    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="fix" style="color:#aaa;">&#8627; Corrective Framework</button>
-    <button class="nav-item sub" data-nav="intake" data-subfn="showSub" data-sub="em" style="color:#aaa;">&#8627; EM Directives</button>
-    <button class="nav-item" data-nav="logistics">Orders Logistics (MG)</button>
-    <button class="nav-item sub" data-nav="logistics" data-subfn="showLogSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" data-nav="logistics" data-subfn="showLogSub" data-sub="directive" style="color:#aaa;">&#8627; MG Directives</button>
-    <button class="nav-item" data-nav="casemgr">Case Mgrs / Expediting (JM)</button>
-    <button class="nav-item sub" data-nav="casemgr" data-subfn="showCaseSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" data-nav="casemgr" data-subfn="showCaseSub" data-sub="directive" style="color:#aaa;">&#8627; JM Directives</button>
-    <button class="nav-item" data-nav="records">Records Intake (VA)</button>
-    <button class="nav-item sub" data-nav="records" data-subfn="showRecSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" data-nav="records" data-subfn="showRecSub" data-sub="directive" style="color:#aaa;">&#8627; VA Directives</button>
-    <button class="nav-item" data-nav="billing">Billing &amp; Production (GG)</button>
-    <button class="nav-item sub" data-nav="billing" data-subfn="showBillSub" data-sub="overview" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
-    <button class="nav-item sub" data-nav="billing" data-subfn="showBillSub" data-sub="directive" style="color:#aaa;">&#8627; GG Directives</button>
+    <button class="nav-item" onclick="nav('intake')">Order Intake (EM)</button>
+    <button class="nav-item sub" onclick="nav('intake');showSub('diag')" style="color:#aaa;">&#8627; Diagnostic</button>
+    <button class="nav-item sub" onclick="nav('intake');showSub('cap')" style="color:#aaa;">&#8627; Capacity Model</button>
+    <button class="nav-item sub" onclick="nav('intake');showSub('fix')" style="color:#aaa;">&#8627; Corrective Framework</button>
+    <button class="nav-item sub" onclick="nav('intake');showSub('em')" style="color:#aaa;">&#8627; EM Directives</button>
+    <button class="nav-item" onclick="nav('logistics')">Orders Logistics (MG)</button>
+    <button class="nav-item sub" onclick="nav('logistics');showLogSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" onclick="nav('logistics');showLogSub('directive')" style="color:#aaa;">&#8627; MG Directives</button>
+    <button class="nav-item" onclick="nav('casemgr')">Case Mgrs / Expediting (JM)</button>
+    <button class="nav-item sub" onclick="nav('casemgr');showCaseSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" onclick="nav('casemgr');showCaseSub('directive')" style="color:#aaa;">&#8627; JM Directives</button>
+    <button class="nav-item" onclick="nav('records')">Records Intake (VA)</button>
+    <button class="nav-item sub" onclick="nav('records');showRecSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" onclick="nav('records');showRecSub('directive')" style="color:#aaa;">&#8627; VA Directives</button>
+    <button class="nav-item" onclick="nav('billing')">Billing &amp; Production (GG)</button>
+    <button class="nav-item sub" onclick="nav('billing');showBillSub('overview')" style="color:#aaa;">&#8627; Overview &amp; Metrics</button>
+    <button class="nav-item sub" onclick="nav('billing');showBillSub('directive')" style="color:#aaa;">&#8627; GG Directives</button>
   </div>
 </div>
 
@@ -148,7 +148,7 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Array Records Retrieval &nbsp;·&nbsp; Director: Douglas Gormley &nbsp;·&nbsp; Associate Director: JF &nbsp;·&nbsp; Services: Subpoenas, Authorizations, DWQs</p>
 
   <div style="background:#1a1a1a;border-radius:10px;padding:20px 24px;margin-bottom:24px;color:#fff;">
-    <div style="font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:10px;">Getting started — read this first</div>
+    <div style="font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#888;margin-bottom:10px;">Getting started -- read this first</div>
     <div style="font-size:15px;font-weight:600;margin-bottom:12px;">Welcome to the Texas Division Leadership Hub</div>
     <div style="font-size:13px;color:#ccc;line-height:1.8;">This hub is your central resource for division standards, department operations, and leadership development. You have three things to complete:</div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px;">
@@ -168,7 +168,7 @@ This content is for general management training purposes only and does not refle
         <div style="font-size:12px;color:#aaa;line-height:1.6;">Go to <strong style="color:#ccc;">crystalknows.com</strong>, create a free account with your work email, and complete the assessment. Email your Primary DISC type, Secondary type, and Crystal profile name directly to Doug Gormley.</div>
       </div>
     </div>
-    <div style="margin-top:14px;padding-top:14px;border-top:1px solid #333;font-size:12px;color:#888;">Questions? Contact Doug Gormley &nbsp;·&nbsp; doug.gormley@trustarray.com &nbsp;·&nbsp; v4.8 — Updated May 29, 2026</div>
+    <div style="margin-top:14px;padding-top:14px;border-top:1px solid #333;font-size:12px;color:#888;">Questions? Contact Doug Gormley &nbsp;·&nbsp; doug.gormley@trustarray.com &nbsp;·&nbsp; v5.1 -- Updated June 3, 2026</div>
   </div>
   <div class="stitle">Division Roster</div>
   <div class="rgrid">
@@ -199,6 +199,7 @@ This content is for general management training purposes only and does not refle
     </tbody>
   </table></div>
   <div class="stitle">Division-Wide Gaps</div>
+  <div class="flag"><strong>No consistent accountability structure.</strong> No uniform check-in cadence, no standard weekly metric reporting, no documented underperformance protocols across any department.</div>
   <div class="flag"><strong>Management team is operating below the division's performance standard.</strong> Some managers bring prior experience from other organizations. The issue is not experience level — it is alignment to the higher standard of accountability, metrics ownership, and remote leadership discipline that this division demands. JF and the Director must maintain active coaching presence through at minimum the first 90 days to close that gap.</div>
   <div class="warn"><strong>Remote environment amplifies every gap.</strong> Without daily structure imposed by management, teams default to self-direction — producing uneven output and invisible bottlenecks.</div>
 </div>
@@ -209,13 +210,13 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">From: Douglas Gormley, Director &amp; JF, Associate Director — Effective immediately</p>
   <div class="stitle">I. The Standard We Expect</div>
   <div class="card surf"><h3>You are a manager, not a participant.</h3><p>Your team's output is your output. When a metric slips, the question is not "why didn't they perform?" — it is "why didn't you catch it, address it, and correct it?" Leadership is not a title. It is a daily discipline of observation, communication, and accountability — especially in a remote environment where visibility requires effort and intentionality.</p></div>
-  <div class="card surf"><h3>Remote does not mean invisible.</h3><p>Managing a remote team demands more structure, not less. Your team takes cues from you. When expectations are clear and consistent, teams rise to meet them. When they are not, ambiguity fills the gap. You are the connection point between the division's goals and the daily behavior of your team. That is a position of real influence — use it intentionally.</p></div>
+  <div class="card surf"><h3>Remote does not mean invisible.</h3><p>Managing a remote team demands more structure, not less. Your team takes cues from you. When expectations are clear and consistent, teams rise to meet them. When they are not, ambiguity fills the gap. You are the connection point between the division's goals and the daily behavior of your team. That is a position of real influence -- use it intentionally.</p></div>
   <div class="card surf"><h3>Metrics are your compass — own them.</h3><p>Every department has measurables. If you do not know your team's current performance on every metric as of today, that is the first problem to solve. When you know your numbers, you can lead with confidence. When you do not, you are managing in the dark.</p></div>
   <div class="stitle">II. Non-Negotiable Behaviors</div>
   <div class="card surf"><h3>Daily check-ins are mandatory.</h3><p>Every working day. What was completed yesterday, what is the priority today, where are the blockers. Document outcomes. Consistency here is what builds team trust over time.</p></div>
   <div class="card surf"><h3>Weekly metric reviews are required.</h3><p>Review performance metrics with your team every week. Gaps identified, causes diagnosed, corrective actions assigned with names and deadlines. Report summary to JF and the Director weekly.</p></div>
-  <div class="card surf"><h3>Underperformance is addressed within 48 hours.</h3><p>Documented one-on-one within 48 hours of any missed metric or standard. What happened, what the expectation is, what changes are needed, follow-up date. Letting underperformance go unaddressed does not protect the team member — it delays a harder conversation and compounds the problem.</p></div>
-  <div class="card surf"><h3>You will develop your people, not just direct them.</h3><p>One developmental goal per team member per quarter. Coach toward it actively. You are building something that lasts — not just processing today's work.</p></div>
+  <div class="card surf"><h3>Underperformance is addressed within 48 hours.</h3><p>Documented one-on-one within 48 hours of any missed metric or standard. What happened, what the expectation is, what changes are needed, follow-up date. Letting underperformance go unaddressed does not protect the team member -- it delays a harder conversation and compounds the problem.</p></div>
+  <div class="card surf"><h3>You will develop your people, not just direct them.</h3><p>One developmental goal per team member per quarter. Coach toward it actively. You are building something that lasts -- not just processing today's work.</p></div>
   <div class="stitle">III. Department-Specific Accountability</div>
   <div class="card surf"><h3>EM — Order Intake</h3><p>Order intake accuracy and TaT are your primary metrics. Track error rates and throughput per team member weekly. Intake is the foundation of the entire division pipeline. Accepted TaT standard is 3–4 days. Division is currently hitting 4–5 days — consistently at or above the upper bound. Immediate goal is reliable delivery within 3–4 days before tightening toward 3.</p></div>
   <div class="card surf"><h3>MG — Orders Logistics</h3><p>Order flow, routing accuracy, and logistics turnaround are your metrics. You are the operational bridge between intake and fulfillment. Maintain a live view of order status daily. Flag at-risk items before they escalate.</p></div>
@@ -223,7 +224,7 @@ This content is for general management training purposes only and does not refle
   <div class="card surf"><h3>VA — Records Intake</h3><p>Records receipt, QC, and 24-hour processing TaT are your primary metrics. Every record that enters your department must be checked for completeness and legal compliance before it moves downstream. Incomplete records returned to Expediting represent rework that costs the entire division time. You own the quality gate. Nothing passes through your department that has not been verified.</p></div>
   <div class="card surf"><h3>GG — Billing &amp; Production</h3><p>Billing accuracy, invoice cycle time, and production output are your metrics. Reconcile daily, identify error patterns weekly, maintain a clean production log. Zero-defect ambition. As team lead, model the accountability standards in this directive every day.</p></div>
   <div class="stitle">IV. The Leadership Compact</div>
-  <div class="card surf"><h3>We will invest in you — and we expect performance in return.</h3><p>JF and I are committed to your development. You will receive coaching, frameworks, feedback, and resources. In return, show up every day as a leader. Ask hard questions. Surface problems early. Hold your team with respect and firmness. The path forward is built together — through accountability, clarity, and consistent execution.</p></div>
+  <div class="card surf"><h3>We will invest in you — and we expect performance in return.</h3><p>JF and I are committed to your development. You will receive coaching, frameworks, feedback, and resources. In return, show up every day as a leader. Ask hard questions. Surface problems early. Hold your team with respect and firmness. The path forward is built together -- through accountability, clarity, and consistent execution.</p></div>
 </div>
 
 <!-- INTAKE -->
@@ -231,10 +232,10 @@ This content is for general management training purposes only and does not refle
   <h1>Order Intake Department</h1>
   <p class="subtitle">Manager: EM &nbsp;·&nbsp; Team: Emilee, Jamika, Jody, Sam Cruz, Amy, Kiera, Shannon, Tanya (8 members) &nbsp;·&nbsp; Order types: Subpoenas, Authorizations, DWQs &nbsp;·&nbsp; Avg volume: 102 locations/day &nbsp;·&nbsp; 99% email orders</p>
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="stab-diag" data-intakesub="diag">Diagnostic</button>
-    <button class="se" id="stab-cap" data-intakesub="cap">Capacity Model</button>
-    <button class="se" id="stab-fix" data-intakesub="fix">Corrective Framework</button>
-    <button class="se" id="stab-em" data-intakesub="em">EM Directives</button>
+    <button class="pr" id="stab-diag" onclick="showSub('diag')">Diagnostic</button>
+    <button class="se" id="stab-cap" onclick="showSub('cap')">Capacity Model</button>
+    <button class="se" id="stab-fix" onclick="showSub('fix')">Corrective Framework</button>
+    <button class="se" id="stab-em" onclick="showSub('em')">EM Directives</button>
   </div>
 
   <div id="intake-diag">
@@ -325,10 +326,10 @@ This content is for general management training purposes only and does not refle
   <div id="intake-em" style="display:none">
     <div class="info"><strong>Direct to EM — Order Intake Manager.</strong> These are your operating requirements effective immediately. JF reviews compliance weekly.</div>
     <div class="card surf"><h3>You must know your queue at all times.</h3><p>At any point during the business day you must be able to state: locations in queue, locations processed today, what each rep is working on, and projected EOD completion. If you cannot answer these four questions without looking something up, your system is not working.</p></div>
-    <div class="card surf"><h3>You own distribution — not the team.</h3><p>Moving away from ad hoc self-assignment is the first step. Every morning you assign the queue. Every assignment is logged. If a rep finishes early, you know and you reassign. The team should never be choosing what to work on next without your direction.</p></div>
-    <div class="card surf"><h3>When volume spikes, the team looks to you to lead through it — not just document it.</h3><p>When volume is high, your job is to manage through it — not surface it to JF or the Director as an explanation for missed TaT. Escalate to JF when you need additional resources — come with what you have already tried and what you need to move forward.</p></div>
+    <div class="card surf"><h3>You own distribution — not the team.</h3><p>Ad hoc self-assignment ends now. Every morning you assign the queue. Every assignment is logged. If a rep finishes early, you know and you reassign. The team should never be choosing what to work on next without your direction.</p></div>
+    <div class="card surf"><h3>Volume spikes are your problem to solve, not report.</h3><p>When volume is high, your job is to manage through it — not surface it to JF or the Director as an explanation for missed TaT. Escalate to JF when you need resources, not when you need cover.</p></div>
     <div class="card surf"><h3>Your weekly report to JF must include actual numbers.</h3><p>Locations received, locations processed, open queue, TaT by order type, per-rep throughput, error or rework incidents. Not impressions — numbers.</p></div>
-    <div class="card surf"><h3>You are accountable for TaT — not volume.</h3><p>Volume is an input you cannot fully control. TaT is an output you absolutely can control through planning, distribution, prioritization, and escalation. The stronger answer to a high-volume day is: here is what I did about it and here is what changes going forward.</p></div>
+    <div class="card surf"><h3>You are accountable for TaT — not volume.</h3><p>Volume is an input you cannot fully control. TaT is an output you absolutely can control through planning, distribution, prioritization, and escalation. "We had a high-volume day" is not a sufficient answer. What did you do about it, and what is your plan to prevent it happening again?</p></div>
     <div class="stitle">EM 30-Day Development Focus</div>
     <div class="card surf"><h3>Build the habit of proactive visibility.</h3><p>EM's primary goal for the first 30 days is to transition from reactive management to proactive management — seeing problems before they become TaT failures. Daily rhythm: morning queue review, midday check, EOD log. JF coaches this cadence weekly. At 30 days, EM presents a full month of tracking data and a self-assessment to the Director and JF.</p></div>
   </div>
@@ -341,8 +342,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: MG &nbsp;·&nbsp; Team: Maria, Jasmine, Omar, Nancy, Ian (5 members) &nbsp;·&nbsp; Function: Payments, mail-outs, vendor coordination</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="logtab-overview" data-logsub="overview">Overview &amp; Metrics</button>
-    <button class="se" id="logtab-directive" data-logsub="directive">MG Directives</button>
+    <button class="pr" id="logtab-overview" onclick="showLogSub('overview')">Overview &amp; Metrics</button>
+    <button class="se" id="logtab-directive" onclick="showLogSub('directive')">MG Directives</button>
   </div>
 
   <div id="logsub-overview">
@@ -391,7 +392,7 @@ This content is for general management training purposes only and does not refle
     <div class="info"><strong>Direct to MG — Orders Logistics Manager.</strong> These are your operating requirements effective immediately. JF reviews compliance weekly.</div>
     <div class="card surf"><h3>You own the outbound pipeline.</h3><p>Every payment, mail-out, and hand serve that leaves your department is your signature. If it is late, incorrect, or sent via the wrong method, that is a management failure — not a rep error. Your team's output is your output. Check it before it goes out, not after it comes back.</p></div>
     <div class="card surf"><h3>The task manager is your source of truth — use it as one.</h3><p>Every item in the task manager has a logged date and a required completion window. You must review your open task manager queue every morning and every EOD. If something is aging past its window, you address it that day — not when JF asks about it.</p></div>
-    <div class="card surf"><h3>Rush items represent a commitment the division has made to a law firm. They are treated as the highest priority.</h3><p>A rush payment or a same-day hand serve is a division commitment to a law firm. If your team cannot execute a rush item, you escalate to JF immediately — not after the window passes. "We were busy" is not an acceptable explanation for a missed rush.</p></div>
+    <div class="card surf"><h3>Rush items are not optional.</h3><p>A rush payment or a same-day hand serve is a division commitment to a law firm. If your team cannot execute a rush item, you escalate to JF immediately — not after the window passes. "We were busy" is not an acceptable explanation for a missed rush.</p></div>
     <div class="card surf"><h3>Vendor relationships are yours to manage.</h3><p>Alberto and Darrell work for the outcomes of this division. If either vendor is slow, unresponsive, or producing errors, MG identifies it, documents it, and brings the issue to JF with a recommendation — not just a complaint. You manage vendors the same way you manage your team: with clear expectations and documented accountability.</p></div>
     <div class="card surf"><h3>Your weekly report to JF must include actual numbers.</h3><p>Mail-outs completed vs. logged, hand serves completed same day vs. missed, payments within 48 hours vs. past due, rush items met vs. missed, packet error count. Not a narrative — numbers.</p></div>
     <div class="stitle">MG 30-Day Development Focus</div>
@@ -405,8 +406,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: JM &nbsp;·&nbsp; Team: Jennifer, D, Kiandra, Lisa, Alicia, Rashonda, Kathy (9 members) &nbsp;·&nbsp; Roles: Case Managers, Associate Case Managers, Records Retrieval Specialists (Expeditors)</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="casemgrtab-overview" data-casesub="overview">Overview &amp; Metrics</button>
-    <button class="se" id="casemgrtab-directive" data-casesub="directive">JM Directives</button>
+    <button class="pr" id="casemgrtab-overview" onclick="showCaseSub('overview')">Overview &amp; Metrics</button>
+    <button class="se" id="casemgrtab-directive" onclick="showCaseSub('directive')">JM Directives</button>
   </div>
 
   <div id="casemgrsub-overview">
@@ -469,8 +470,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: VA &nbsp;·&nbsp; Team: Venesa, Rashonda, April, Tashionda (4 members) &nbsp;·&nbsp; Function: Receive, QC, and route all incoming records</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="recordstab-overview" data-recsub="overview">Overview &amp; Metrics</button>
-    <button class="se" id="recordstab-directive" data-recsub="directive">VA Directives</button>
+    <button class="pr" id="recordstab-overview" onclick="showRecSub('overview')">Overview &amp; Metrics</button>
+    <button class="se" id="recordstab-directive" onclick="showRecSub('directive')">VA Directives</button>
   </div>
 
   <div id="recordssub-overview">
@@ -518,9 +519,9 @@ This content is for general management training purposes only and does not refle
 
   <div id="recordssub-directive" style="display:none">
     <div class="info"><strong>Direct to VA — Records Intake Manager.</strong> These are your operating requirements effective immediately. JF reviews compliance weekly.</div>
-    <div class="card surf"><h3>You are the quality gate.</h3><p>Every record that moves downstream from your department has been verified — that is the standard you hold. A non-compliant record that reaches Production and Billing creates rework that costs the division time and accuracy. Your QC standard is zero defects forwarded. When in doubt, return it — do not pass it on and hope for the best.</p></div>
-    <div class="card surf"><h3>24 hours is the maximum acceptable window — same-day processing is the goal whenever volume allows.</h3><p>Every record received today should be processed today. 24 hours is the maximum acceptable TaT — not the target pace. VA must drive the team toward same-day processing as the norm, with 24 hours reserved only for late-arriving or high-complexity records.</p></div>
-    <div class="card surf"><h3>68 files per day is the established baseline per person.</h3><p>Each electronic intake rep processes a minimum of 68 files per day. VA tracks this per rep, every day. A rep consistently below 68 gets a coaching conversation — not an assumption that the volume was light. VA must know whether the issue is volume, pace, or complexity before the end of that day.</p></div>
+    <div class="card surf"><h3>You are the quality gate.</h3><p>Nothing moves downstream from your department that has not been verified. A non-compliant record that reaches Production and Billing creates rework that costs the division time and accuracy. Your QC standard is zero defects forwarded. When in doubt, return it — do not pass it on and hope for the best.</p></div>
+    <div class="card surf"><h3>24 hours is the ceiling, not the goal.</h3><p>Every record received today should be processed today. 24 hours is the maximum acceptable TaT — not the target pace. VA must drive the team toward same-day processing as the norm, with 24 hours reserved only for late-arriving or high-complexity records.</p></div>
+    <div class="card surf"><h3>68 files per day is the floor.</h3><p>Each electronic intake rep processes a minimum of 68 files per day. VA tracks this per rep, every day. A rep consistently below 68 gets a coaching conversation — not an assumption that the volume was light. VA must know whether the issue is volume, pace, or complexity before the end of that day.</p></div>
     <div class="card surf"><h3>Mangalam is your first check every morning.</h3><p>Before the team begins processing, VA confirms Mangalam's overnight delivery is complete and routed correctly. If it is not, VA escalates immediately. A delayed or incomplete Mangalam delivery that is not flagged until mid-morning has already cost the division hours.</p></div>
     <div class="card surf"><h3>Your weekly report to JF must include actual numbers.</h3><p>Files processed per rep vs. 68 target, physical mail completion, records pending beyond 24 hours, Mangalam delivery status each morning, records returned to Expediting with reasons, and any routing errors identified. Numbers — not summaries.</p></div>
     <div class="stitle">VA 30-Day Development Focus</div>
@@ -534,8 +535,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Manager: GG &nbsp;·&nbsp; Team: GG, Priscilla, Eric, Sam (4 members + GG) &nbsp;·&nbsp; Function: QC, invoice generation, NOD filing, client delivery</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="billingtab-overview" data-billsub="overview">Overview &amp; Metrics</button>
-    <button class="se" id="billingtab-directive" data-billsub="directive">GG Directives</button>
+    <button class="pr" id="billingtab-overview" onclick="showBillSub('overview')">Overview &amp; Metrics</button>
+    <button class="se" id="billingtab-directive" onclick="showBillSub('directive')">GG Directives</button>
   </div>
 
   <div id="billingsub-overview">
@@ -604,8 +605,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">60% or higher = passes threshold &nbsp;·&nbsp; Below 60% = development plan triggered &nbsp;·&nbsp; Each manager takes this independently</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="qtab-test" data-quizsub="test">Take Quiz</button>
-    <button class="se" id="qtab-results" data-quizsub="results">Prior Results</button>
+    <button class="pr" id="qtab-test" onclick="showQuizSub('test')">Take Quiz</button>
+    <button class="se" id="qtab-results" onclick="showQuizSub('results')">Prior Results</button>
   </div>
 
   <!-- QUIZ TAB -->
@@ -622,6 +623,7 @@ This content is for general management training purposes only and does not refle
           <option value="EM">EM — Order Intake</option>
           <option value="MG">MG — Orders Logistics</option>
           <option value="JM">JM — Case Managers / Expediting</option>
+          <option value="VA">VA — Records Intake</option>
           <option value="VA">VA — Records Intake</option>
           <option value="GG">GG — Billing &amp; Production</option>
         </select>
@@ -654,9 +656,9 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Array Records Retrieval — Texas Division &nbsp;·&nbsp; Powered by DISC &nbsp;·&nbsp; Assessment provider: Crystal Knows (crystalknows.com)</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="disctab-intro" data-discsub="intro">About DISC</button>
-    <button class="se" id="disctab-enter" data-discsub="enter">Enter Results</button>
-    <button class="se" id="disctab-map" data-discsub="map">Team Map</button>
+    <button class="pr" id="disctab-intro" onclick="showDiscSub('intro')">About DISC</button>
+    <button class="se" id="disctab-enter" onclick="showDiscSub('enter')">Enter Results</button>
+    <button class="se" id="disctab-map" onclick="showDiscSub('map')">Team Map</button>
   </div>
 
   <!-- ABOUT DISC -->
@@ -721,7 +723,8 @@ This content is for general management training purposes only and does not refle
             <option value="MG">MG — Orders Logistics</option>
             <option value="JM">JM — Case Managers / Expediting</option>
             <option value="VA">VA — Records Intake</option>
-            <option value="GG">GG — Billing &amp; Production</option>
+            <option value="VA">VA — Records Intake</option>
+          <option value="GG">GG — Billing &amp; Production</option>
           </select>
         </div>
         <div>
@@ -772,8 +775,8 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Array Records Retrieval — Texas Division &nbsp;·&nbsp; Required for all managers before any PIP, CAP, or Termination escalation</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="factstab-training" data-factssub="training">Training Module</button>
-    <button class="se" id="factstab-quiz" data-factssub="quiz">Assessment Quiz</button>
+    <button class="pr" id="factstab-training" onclick="showFactsSub('training')">Training Module</button>
+    <button class="se" id="factstab-quiz" onclick="showFactsSub('quiz')">Assessment Quiz</button>
   </div>
 
   <!-- TRAINING MODULE -->
@@ -838,6 +841,7 @@ This content is for general management training purposes only and does not refle
           <option value="MG">MG — Orders Logistics</option>
           <option value="JM">JM — Case Managers / Expediting</option>
           <option value="VA">VA — Records Intake</option>
+          <option value="VA">VA — Records Intake</option>
           <option value="GG">GG — Billing &amp; Production</option>
         </select>
         <button class="pr" onclick="startFQ()">Begin Assessment</button>
@@ -860,12 +864,12 @@ This content is for general management training purposes only and does not refle
   <p class="subtitle">Prepared for JB — Leadership Trainer &nbsp;·&nbsp; Array Records Retrieval, Texas Division</p>
 
   <div style="display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap;">
-    <button class="pr" id="jbtab-context" data-jbsub="context">Division Context</button>
-    <button class="se" id="jbtab-appraisal" data-jbsub="appraisal">Leader Appraisals</button>
-    <button class="se" id="jbtab-jocko" data-jbsub="jocko">Jocko Willink</button>
-    <button class="se" id="jbtab-sinek" data-jbsub="sinek">Simon Sinek</button>
-    <button class="se" id="jbtab-servant" data-jbsub="servant">Servant Leadership Principles</button>
-    <button class="se" id="jbtab-musk" data-jbsub="musk">Elon Musk / First Principles</button>
+    <button class="pr" id="jbtab-context" onclick="showJBSub('context')">Division Context</button>
+    <button class="se" id="jbtab-appraisal" onclick="showJBSub('appraisal')">Leader Appraisals</button>
+    <button class="se" id="jbtab-jocko" onclick="showJBSub('jocko')">Jocko Willink</button>
+    <button class="se" id="jbtab-sinek" onclick="showJBSub('sinek')">Simon Sinek</button>
+    <button class="se" id="jbtab-servant" onclick="showJBSub('servant')">Servant Leadership Principles</button>
+    <button class="se" id="jbtab-musk" onclick="showJBSub('musk')">Elon Musk / First Principles</button>
   </div>
 
   <!-- CONTEXT -->
@@ -989,11 +993,11 @@ This content is for general management training purposes only and does not refle
     <div class="card surf"><h3>Servant leadership — Mark 10:43–45</h3><p>"Whoever wants to become great among you must be your servant." The manager who sees their role as serving their team — removing obstacles, providing clarity, advocating for resources — builds a team that performs. The manager who sees the team as serving them builds resentment. Every manager in this division should be asked: in what specific ways did you serve your team this week? Not manage them — serve them.</p></div>
     <div class="card surf"><h3>Stewardship — Matthew 25:14–30 (Parable of the Talents)</h3><p>Each manager has been entrusted with people, processes, and outcomes. Stewardship is the obligation to develop what you have been given — not just maintain it. A manager who keeps their team at the same capability level they found them is not a good steward. JB should frame development conversations in stewardship terms: you have been entrusted with these people. What are you doing to grow what has been placed in your care?</p></div>
     <div class="card surf"><h3>Integrity — Proverbs 11:3</h3><p>"The integrity of the upright guides them." For remote managers, integrity is not observable — it is either present or it is not. Managers who report accurate numbers when the numbers are bad, who acknowledge failures before they are discovered, and who follow through on commitments without being chased are building the only thing that sustains remote leadership: trust. JB should make integrity a coaching theme, not just a values statement.</p></div>
-    <div class="card surf"><h3>Speaking truth — Ephesians 4:15</h3><p>"Speaking the truth in love." Managers must deliver hard feedback, address underperformance, and surface difficult realities — to their teams and to DG and JF. The servant leadership model is not softness or harshness — it is truth delivered with genuine care for the other person's growth. JB should coach managers on the difference between feedback that protects the relationship and feedback that protects the person.</p></div>
+    <div class="card surf"><h3>Speaking truth — Ephesians 4:15</h3><p>"Speaking the truth in love." Managers must deliver hard feedback, address underperformance, and surface difficult realities — to their teams and to DG and JF. The servant model is not softness or harshness — it is truth delivered with genuine care for the other person's growth. JB should coach managers on the difference between feedback that protects the relationship and feedback that protects the person.</p></div>
     <div class="card surf"><h3>Developing people — Proverbs 27:17</h3><p>"As iron sharpens iron, so one person sharpens another." The manager's role is not just output — it is the sharpening of people. Every coaching conversation, every corrective debrief, every stretch assignment is an act of sharpening. JB should help managers see their developmental conversations not as burdensome HR obligations but as the primary act of leadership.</p></div>
     <div class="card surf"><h3>Humility in leadership — Proverbs 16:18 / Philippians 2:3</h3><p>Pride before a fall. For managers stepping into a higher standard than they have previously operated under, the temptation to project competence — to appear to know more than they do — is a leadership trap. The manager who admits "I don't have the answer — let's work through it together" builds more trust than the one who bluffs. JB should model and reinforce intellectual humility as a leadership strength, not a weakness.</p></div>
 
-    <div class="stitle">JB coaching exercises — servant leadership framework</div>
+    <div class="stitle">JB coaching exercises — servant framework</div>
     <div class="card"><table>
       <thead><tr><th>Exercise</th><th>Target</th><th>Purpose</th></tr></thead>
       <tbody>
@@ -1035,7 +1039,7 @@ This content is for general management training purposes only and does not refle
         <tbody>
           <tr><td>Jocko Willink</td><td>Accountability and ownership</td><td>Every manager owns every outcome. No excuses. Debrief everything.</td></tr>
           <tr><td>Simon Sinek</td><td>Purpose and trust</td><td>Teams follow leaders who create safety and lead with why. Remote teams especially.</td></tr>
-          <tr><td>Servant leadership principles</td><td>Character and integrity</td><td>Stewardship, servant leadership, and truth-telling as the non-negotiable foundation of sustainable leadership.</td></tr>
+          <tr><td>Biblical principles</td><td>Character and integrity</td><td>Stewardship, servant leadership, and truth-telling as the non-negotiable foundation of sustainable leadership.</td></tr>
           <tr><td>Elon Musk / First Principles</td><td>Operational excellence</td><td>Every process is a manufacturing line. Eliminate waste. Measure everything. Rebuild from truth, not tradition.</td></tr>
         </tbody>
       </table>
@@ -1047,20 +1051,6 @@ This content is for general management training purposes only and does not refle
 </div><!-- /shell -->
 
 <script>
-// Expose all navigation functions globally for onclick handlers
-window.addEventListener('DOMContentLoaded', function() {
-  // Explicitly set display on all pages
-  var pages = document.querySelectorAll('.page');
-  for(var i=0; i<pages.length; i++){
-    var p = pages[i];
-    p.style.display = p.classList.contains('on') ? 'block' : 'none';
-  }
-  // Make sure overview is visible
-  var overview = document.getElementById('P-overview');
-  if(overview) overview.style.display = 'block';
-});
-
-
 const PAGES=['overview','directive','intake','logistics','casemgr','records','billing','quiz','disc','facts','jb'];
 
 function showQuizSub(s){
@@ -1092,7 +1082,7 @@ function renderResultsBoard(){
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
         <div>
           <div style="font-size:16px;font-weight:600;">${r.mgr}</div>
-          <div style="font-size:12px;color:#999;">${r.date} &nbsp;&middot;&nbsp; ${r.correct} of ${r.total} correct</div>
+          <div style="font-size:12px;color:#999;">${r.date} &nbsp;.&nbsp; ${r.correct} of ${r.total} correct</div>
         </div>
         <div style="text-align:right;">
           <div style="font-size:32px;font-weight:700;color:${barColor}">${r.pct}%</div>
@@ -1142,24 +1132,13 @@ function sendResultEmail(r){
 }
 
 function nav(t){
-  // Hide all pages explicitly
-  PAGES.forEach(function(id){
-    var el = document.getElementById('P-'+id);
-    if(el){
-      el.style.display = (id===t) ? 'block' : 'none';
-      el.classList.toggle('on', id===t);
-    }
+  PAGES.forEach(id=>{
+    document.getElementById('P-'+id).classList.toggle('on',id===t);
   });
-  // Update nav button active state
-  var btns = document.querySelectorAll('.nav-item');
-  for(var i=0; i<btns.length; i++){
-    var b = btns[i];
-    if(!b.classList.contains('sub')){
-      var oc = b.getAttribute('onclick') || '';
-      b.classList.toggle('on', oc.indexOf("nav('"+t+"')") >= 0);
-    }
-  }
-  // Initialize sub-panels
+  document.querySelectorAll('.nav-item:not(.sub)').forEach(b=>{
+    const oc=b.getAttribute('onclick')||'';
+    b.classList.toggle('on', oc.includes("nav('"+t+"')"));
+  });
   if(t==='intake') showSub('diag');
   if(t==='disc') showDiscSub('intro');
   if(t==='facts') showFactsSub('training');
@@ -1182,26 +1161,22 @@ function showSub(s){
 }
 
 const QS=[
-  {d:"Accountability",t:"A team member who has consistently met her quota for six months suddenly misses it three days in a row. She has not said anything to you. Your first move is:",o:["Send a message to the team reminding everyone of the daily standard  --  without naming her directly","Wait until the end of the week to see if she self-corrects before raising it","Have a private conversation with her today to understand what changed  --  not to correct her, but to get the full picture before drawing conclusions","Log the three missed days and schedule a formal coaching session for next week"],c:2},
-  {d:"Metrics management",t:"Your department hit its weekly target but two of your six reps carried the team  --  the other four were significantly under. You report to JF. What do you say?",o:["The team hit target this week  --  we are on track","We hit the overall target but performance was uneven. Two reps carried the load. I am already looking at what is driving the gap for the other four and will have a plan by Monday","We had a strong week. A couple of reps really stepped up and I want to recognize them","Volume was lower than usual so hitting target was more manageable this week"],c:1},
-  {d:"Remote leadership",t:"A remote team member who is normally your strongest performer has been hitting her numbers but her communication has become minimal  --  short replies, no initiative, skipping optional team check-ins. There is no metric issue yet. You:",o:["Do nothing  --  she is hitting her numbers and that is what matters","Send a group message encouraging more team engagement without addressing her directly","Reach out to her individually and privately  --  not about performance but about how she is doing. Something has shifted and you want to understand it before it becomes a metric issue","Flag it to JF as a potential early warning sign and ask for guidance"],c:2},
-  {d:"Communication",t:"JF gives you a directive you believe will make your team's TaT worse, not better. You have data to support your concern. You:",o:["Implement it without comment  --  it is not your place to push back on directives","Implement it but tell your team you disagree with the decision so they understand it is not coming from you","Request a brief conversation with JF to share your data and concern before implementation  --  then fully commit to whatever she decides","Wait to see if the TaT actually gets worse before raising it, so you have evidence"],c:2},
-  {d:"Team development",t:"Your best rep tells you she is bored and feels like she has hit a ceiling in her role. You do not have a promotion to offer her. You:",o:["Tell her you appreciate her and will keep her in mind when something opens up","Increase her quota so she stays challenged","Work with her to identify a stretch responsibility  --  cross-training, quality review ownership, or mentoring a newer rep  --  that builds her skills and keeps her engaged without requiring a title change","Escalate to JF to request a compensation adjustment to retain her"],c:2},
-  {d:"Accountability",t:"You have coached a rep twice for the same issue  --  response time to clients. Each time she acknowledged the standard and agreed to improve. It has not improved. Your next step is:",o:["Coach her a third time with a more detailed explanation of why the standard matters","Move her to a non-client-facing task until she demonstrates she can meet the standard","Issue a written warning that documents both prior coaching conversations, states the standard clearly, sets a specific improvement timeline, and outlines the consequence if the standard is not met","Bring the situation to JF and ask her to have the conversation  --  you have tried twice and it has not worked"],c:2},
+  {d:"Accountability",t:"A team member who has consistently met her quota for six months suddenly misses it three days in a row. She has not said anything to you. Your first move is:",o:["Send a message to the team reminding everyone of the daily standard without naming her directly","Wait until the end of the week to see if she self-corrects before raising it","Have a private conversation with her today to understand what changed -- not to correct her, but to get the full picture before drawing conclusions","Log the three missed days and schedule a formal coaching session for next week"],c:2},
+  {d:"Metrics management",t:"Your department hit its weekly target but two of your six reps carried the team -- the other four were significantly under. You report to JF. What do you say?",o:["The team hit target this week -- we are on track","We hit the overall target but performance was uneven. Two reps carried the load. I am already looking at what is driving the gap for the other four and will have a plan by Monday","We had a strong week. A couple of reps really stepped up and I want to recognize them","Volume was lower than usual so hitting target was more manageable this week"],c:1},
+  {d:"Remote leadership",t:"A remote team member who is normally your strongest performer has been hitting her numbers but her communication has become minimal -- short replies, no initiative, skipping optional team check-ins. There is no metric issue yet. You:",o:["Do nothing -- she is hitting her numbers and that is what matters","Send a group message encouraging more team engagement without addressing her directly","Reach out to her individually and privately -- not about performance but about how she is doing. Something has shifted and you want to understand it before it becomes a metric issue","Flag it to JF as a potential early warning sign and ask for guidance"],c:2},
+  {d:"Communication",t:"JF gives you a directive you believe will make your team's TaT worse, not better. You have data to support your concern. You:",o:["Implement it without comment -- it is not your place to push back on directives","Implement it but tell your team you disagree with the decision so they understand it is not coming from you","Request a brief conversation with JF to share your data and concern before implementation -- then fully commit to whatever she decides","Wait to see if the TaT actually gets worse before raising it, so you have evidence"],c:2},
+  {d:"Team development",t:"Your best rep tells you she is bored and feels like she has hit a ceiling in her role. You do not have a promotion to offer her. You:",o:["Tell her you appreciate her and will keep her in mind when something opens up","Increase her quota so she stays challenged","Work with her to identify a stretch responsibility -- cross-training, quality review ownership, or mentoring a newer rep -- that builds her skills and keeps her engaged without requiring a title change","Escalate to JF to request a compensation adjustment to retain her"],c:2},
+  {d:"Accountability",t:"You have coached a rep twice for the same issue -- response time to clients. Each time she acknowledged the standard and agreed to improve. It has not improved. Your next step is:",o:["Coach her a third time with a more detailed explanation of why the standard matters","Move her to a non-client-facing task until she demonstrates she can meet the standard","Issue a written warning that documents both prior coaching conversations, states the standard clearly, sets a specific improvement timeline, and outlines the consequence if the standard is not met","Bring the situation to JF and ask her to have the conversation -- you have tried twice and it has not worked"],c:2},
   {d:"Metrics management",t:"Your department has missed its weekly target two weeks in a row. When you dig into the data you find the miss is driven entirely by one rep who is significantly underperforming. The rest of the team is on track. When you report to JF you:",o:["Report the overall miss and note that you are working on it","Report the overall miss, identify that it is driven by one rep's underperformance, share what coaching has already occurred, and state your next action and timeline","Report the overall miss but do not identify the individual rep to protect her privacy","Ask JF for more time before reporting since you have not yet had a chance to address it"],c:1},
-  {d:"Remote leadership",t:"You assign a task to a rep on Monday with a Wednesday deadline. Wednesday arrives and the task is incomplete. The rep says she misunderstood the deadline. This is the second time a deadline miscommunication has occurred with this rep. You:",o:["Accept the explanation  --  miscommunications happen remotely and deadlines should be clearer","Give her until Friday to complete it and move on","Acknowledge the miscommunication but recognize that two deadline misses in a row signals a system problem  --  either in how you communicate deadlines or how she tracks them. Address both in a direct conversation today","Escalate to a formal written warning  --  two misses is a pattern that needs to be documented"],c:2},
-  {d:"Communication",t:"Two of your team members have an ongoing tension that is affecting their collaboration. Both have come to you separately with their version of events. You:",o:["Tell each of them separately what the other said and let them work it out","Address it only if it starts affecting their metrics  --  interpersonal dynamics are not your job to manage","Bring them together for a structured conversation where each person speaks without interruption, you facilitate toward a specific working agreement, and you follow up in one week to assess whether the agreement is holding","Pick the version of events you find more credible and address the other person's behavior directly"],c:2},
-  {d:"Team development",t:"A new rep has been with the team for three weeks and is struggling with a process that experienced reps handle in their sleep. She is trying hard but her output is below standard. You:",o:["Give her another two weeks  --  three weeks is too early to intervene","Have a direct conversation about the performance gap and make clear the standard she needs to meet","Pair her with your strongest rep for structured side-by-side work on the specific process she is struggling with  --  set a one-week checkpoint to measure progress","Begin documenting her performance now in case a PIP becomes necessary"],c:2},
-  {d:"Accountability",t:"End of month. Your department hit 78% of its collection target against an 80% goal. You are two points short. When you present to leadership you:",o:["Round up to 80%  --  two points is within normal variance and calling it a miss will create unnecessary concern","Present the 78%, identify the two specific cases that would have closed the gap, explain what happened with each, and state what changes in your follow-up process will close similar cases next month","Present the 78% and explain that the market was challenging this month","Present the 78% and commit to hitting 85% next month to make up for it"],c:1},
-  {d:"Remote leadership",t:"You notice that your team's output tends to drop significantly on Fridays compared to Monday through Thursday. The Friday numbers are still above the minimum standard but the pattern is consistent over six weeks. You:",o:["Do nothing  --  they are meeting the standard and Friday slowdowns are normal","Send a Friday morning message to the team encouraging strong finishes to the week","Investigate the cause before acting  --  review whether Friday volume is genuinely lower, whether certain reps drive the pattern, or whether there is a structural reason. Then decide whether intervention is warranted based on what you find","Implement a Friday accountability check-in where each rep reports their EOD numbers to you directly"],c:2},
-  {d:"Communication",t:"You need to tell a rep that despite her strong effort and positive attitude, her output metrics are not meeting the standard and formal action may follow if they do not improve. The most effective way to deliver this is:",o:["By email  --  it creates a written record and removes the emotional pressure of a live conversation","In your next scheduled one-on-one so it feels like a natural part of the conversation rather than a special meeting","In a private scheduled conversation specifically for this topic  --  open with your genuine appreciation for her effort, be direct and specific about the gap, and give her a clear timeline and the support she needs to close it","In a group setting so the standard is reinforced for the whole team without singling her out"],c:2},
-  {d:"Metrics management",t:"JF asks you without advance notice to state your department's current open queue, average TaT for the past five days, and the name of your lowest-performing rep this week. You do not have this information readily available. The right response is:",o:["Give your best estimate based on what you remember  --  getting close is better than admitting you do not know","Tell JF you will have the numbers to her within the hour and then build the tracking system to ensure you always have them on hand going forward","Explain that the data exists but is not centralized and ask for 24 hours to compile it","Tell JF that real-time metrics are not currently part of your tracking system and ask her to define what she needs going forward"],c:1},
-  {d:"Team development",t:"A rep on your team has significant potential but consistently holds back in team settings  --  she does not speak up, defers to others, and understates her own contributions. Her individual metrics are excellent. You:",o:["Leave her alone  --  she is performing and not everyone needs to be vocal","Publicly recognize her contributions in team settings to draw her out","Have a private conversation to understand what is behind the pattern, share what you observe about her capability, and collaboratively identify one low-pressure opportunity for her to build visibility and confidence on her own terms","Assign her to lead the next team meeting to push her outside her comfort zone"],c:2}
-];
-
-
-
-const DRECS=
+  {d:"Remote leadership",t:"You assign a task to a rep on Monday with a Wednesday deadline. Wednesday arrives and the task is incomplete. The rep says she misunderstood the deadline. This is the second time a deadline miscommunication has occurred with this rep. You:",o:["Accept the explanation -- miscommunications happen remotely and deadlines should be clearer","Give her until Friday to complete it and move on","Acknowledge the miscommunication but recognize that two deadline misses signal a system problem -- either in how you communicate deadlines or how she tracks them. Address both in a direct conversation today","Escalate to a formal written warning -- two misses is a pattern that needs to be documented"],c:2},
+  {d:"Communication",t:"Two of your team members have an ongoing tension that is affecting their collaboration. Both have come to you separately with their version of events. You:",o:["Tell each of them separately what the other said and let them work it out","Address it only if it starts affecting their metrics -- interpersonal dynamics are not your job to manage","Bring them together for a structured conversation where each person speaks without interruption, you facilitate toward a specific working agreement, and you follow up in one week to assess whether the agreement is holding","Pick the version of events you find more credible and address the other person's behavior directly"],c:2},
+  {d:"Team development",t:"A new rep has been with the team for three weeks and is struggling with a process that experienced reps handle easily. She is trying hard but her output is below standard. You:",o:["Give her another two weeks -- three weeks is too early to intervene","Have a direct conversation about the performance gap and make clear the standard she needs to meet","Pair her with your strongest rep for structured side-by-side work on the specific process she is struggling with -- set a one-week checkpoint to measure progress","Begin documenting her performance now in case a PIP becomes necessary"],c:2},
+  {d:"Accountability",t:"End of month. Your department hit 78% of its collection target against an 80% goal. You are two points short. When you present to leadership you:",o:["Round up to 80% -- two points is within normal variance and calling it a miss will create unnecessary concern","Present the 78%, identify the two specific cases that would have closed the gap, explain what happened with each, and state what changes in your follow-up process will close similar cases next month","Present the 78% and explain that the market was challenging this month","Present the 78% and commit to hitting 85% next month to make up for it"],c:1},
+  {d:"Remote leadership",t:"You notice that your team's output tends to drop significantly on Fridays compared to Monday through Thursday. The Friday numbers are still above the minimum standard but the pattern is consistent over six weeks. You:",o:["Do nothing -- they are meeting the standard and Friday slowdowns are normal","Send a Friday morning message to the team encouraging strong finishes to the week","Investigate the cause before acting -- review whether Friday volume is genuinely lower, whether certain reps drive the pattern, or whether there is a structural reason. Then decide whether intervention is warranted","Implement a Friday accountability check-in where each rep reports their EOD numbers to you directly"],c:2},
+  {d:"Communication",t:"You need to tell a rep that despite her strong effort and positive attitude, her output metrics are not meeting the standard and formal action may follow if they do not improve. The most effective approach is:",o:["By email -- it creates a written record and removes the emotional pressure of a live conversation","In your next scheduled one-on-one so it feels like a natural part of the conversation rather than a special meeting","In a private scheduled conversation specifically for this topic -- open with genuine appreciation for her effort, be direct and specific about the gap, and give her a clear timeline and the support she needs to close it","In a group setting so the standard is reinforced for the whole team without singling her out"],c:2},
+  {d:"Metrics management",t:"JF asks you without advance notice to state your department's current open queue, average TaT for the past five days, and the name of your lowest-performing rep this week. You do not have this information readily available. The right response is:",o:["Give your best estimate based on what you remember -- getting close is better than admitting you do not know","Tell JF you will have the numbers to her within the hour and then build the tracking system to ensure you always have them on hand going forward","Explain that the data exists but is not centralized and ask for 24 hours to compile it","Tell JF that real-time metrics are not currently part of your tracking system and ask her to define what she needs going forward"],c:1},
+  {d:"Team development",t:"A rep on your team has significant potential but consistently holds back in team settings -- she does not speak up, defers to others, and understates her own contributions. Her individual metrics are excellent. You:",o:["Leave her alone -- she is performing and not everyone needs to be vocal","Publicly recognize her contributions in team settings to draw her out","Have a private conversation to understand what is behind the pattern, share what you observe about her capability, and collaboratively identify one low-pressure opportunity for her to build visibility and confidence on her own terms","Assign her to lead the next team meeting to push her outside her comfort zone"],c:2}
+]
 
 const DRECS={
   'Accountability':n=>`Schedule a coaching session on accountability frameworks: the 48-hour rule, documentation standards, and progressive discipline. ${n} will practice documented check-ins daily for 30 days and submit logs to JF weekly.`,
@@ -1344,9 +1319,9 @@ const DISC_PROFILES = {
     feedback_approach: 'Deliver feedback directly and immediately. No build-up, no softening. Lead with the gap, state the expectation, set the timeline. D-styles respect brevity and directness.',
     jocko: 'Natural alignment with Extreme Ownership  --  D-styles already own outcomes. The coaching challenge is Cover and Move: getting a D-style to see their team as a resource to develop, not a mechanism to drive.',
     sinek: 'D-styles lead with What and How  --  rarely with Why. The coaching approach for the D-style manager to connect their results-drive to a purpose beyond the metric. Teams led by D-styles without a Why burn out.',
-    biblical: 'The servant leadership principle is the primary tension for D-styles. "Whoever wants to be great must be your servant" runs counter to the D-style instinct. Return to this regularly in coaching  --  not as a correction but as a growth edge.',
+    servant: 'The servant leadership principle is the primary tension for D-styles. "Whoever wants to be great must be your servant" runs counter to the D-style instinct. Return to this regularly in coaching  --  not as a correction but as a growth edge.',
     musk: 'D-styles are natural First Principles thinkers  --  they question everything and move fast. The coaching challenge is Step 2 of the 5-Step Algorithm: delete before you build. D-styles often skip deletion and go straight to action.',
-    exercises: ['Have the D-style manager conduct a team check-in where they ask only questions  --  no statements, no directions. The goal is to listen. Debrief what they learned that they did not already know.', 'Ask the D-style to identify one team member they have been too direct with. Have them re-deliver the same feedback using only questions. Observe the difference in the team member\'s response.', 'At the next metric review, have the D-style present their numbers and then ask the team: "What am I missing?" The discomfort of that question is the coaching point.']
+    exercises: ['Have the D-style manager conduct a team check-in where they ask only questions  --  no statements, no directions. The goal is to listen. Debrief what they learned that they did not already know.', 'Ask the D-style to identify one team member they have been too direct with. Have them re-deliver the same feedback using only questions. Observe the difference in the team member's response.', 'At the next metric review, have the D-style present their numbers and then ask the team: "What am I missing?" The discomfort of that question is the coaching point.']
   },
   'I': {
     label: 'I  --  Influence',
@@ -1360,9 +1335,9 @@ const DISC_PROFILES = {
     feedback_approach: 'Frame feedback as a growth opportunity, not a correction. Lead with appreciation for what they are doing well, then be specific about the gap. I-styles need to feel the relationship is safe before they can hear the content.',
     jocko: 'The Extreme Ownership principle is the hardest sell for an I-style  --  they naturally attribute problems to circumstances or other people, not themselves. Return to this repeatedly in coaching: "What did you own in that outcome?"',
     sinek: 'I-styles are natural Start With Why leaders  --  they instinctively connect to purpose. The coaching challenge is translating that purpose energy into consistent daily structure. Inspiration without execution is entertainment.',
-    biblical: 'I-styles are natural practitioners of speaking truth in love  --  they deliver feedback warmly. The growth edge is ensuring the truth actually lands. A message delivered so gently that the recipient does not understand it is not love  --  it is conflict avoidance in disguise.',
-    musk: 'I-styles resist the deletion discipline  --  they add energy, ideas, and process rather than eliminating. Use the Idiot Index directly: show the I-style the gap between effort and output, and ask them to calculate how much of their team\'s activity is actually producing results.',
-    exercises: ['Give the I-style manager a specific underperformance scenario and require them to deliver the feedback in writing before delivering it verbally. Writing removes the ability to improvise around the hard part.', 'Ask the I-style to track every accountability conversation they have in a week  --  date, team member, what was said, what was agreed to. At the end of the week, review. Most I-styles are shocked by how few documented conversations they have had.', 'Have the I-style present their team\'s weekly metrics to JB  --  numbers only, no narrative. The discomfort of presenting data without storytelling is the coaching point.']
+    servant: 'I-styles are natural practitioners of speaking truth in love  --  they deliver feedback warmly. The growth edge is ensuring the truth actually lands. A message delivered so gently that the recipient does not understand it is not love  --  it is conflict avoidance in disguise.',
+    musk: 'I-styles resist the deletion discipline  --  they add energy, ideas, and process rather than eliminating. Use the Idiot Index directly: show the I-style the gap between effort and output, and ask them to calculate how much of their team's activity is actually producing results.',
+    exercises: ['Give the I-style manager a specific underperformance scenario and require them to deliver the feedback in writing before delivering it verbally. Writing removes the ability to improvise around the hard part.', 'Ask the I-style to track every accountability conversation they have in a week  --  date, team member, what was said, what was agreed to. At the end of the week, review. Most I-styles are shocked by how few documented conversations they have had.', 'Have the I-style present their team's weekly metrics to JB  --  numbers only, no narrative. The discomfort of presenting data without storytelling is the coaching point.']
   },
   'S': {
     label: 'S  --  Steadiness',
@@ -1376,7 +1351,7 @@ const DISC_PROFILES = {
     feedback_approach: 'Create safety first. S-styles need to know the relationship is not at risk before they can process feedback about their management behavior. Be patient, be specific, and give them time to respond. Do not rush the conversation.',
     jocko: 'The 48-hour underperformance rule is the hardest Jocko principle for an S-style. Their instinct is to wait, give more time, and hope it resolves. Reframe urgency as care: "Addressing it now protects the team member  --  waiting until it becomes a termination issue is the unkind option."',
     sinek: 'S-styles are natural practitioners of Leaders Eat Last  --  they genuinely put the team first. The coaching challenge is helping them understand that protecting underperformers from accountability is not care  --  it is a disservice to the team member and to the team.',
-    biblical: 'S-styles resonate deeply with servant leadership and stewardship. Use the Parable of the Talents: a steward who buries the talent to protect it has not served the owner well. Letting a team member underperform without intervention is not protection  --  it is neglect.',
+    servant: 'S-styles resonate deeply with servant leadership and stewardship. Use the Parable of the Talents: a steward who buries the talent to protect it has not served the owner well. Letting a team member underperform without intervention is not protection  --  it is neglect.',
     musk: 'S-styles resist the First Principles deletion discipline because deletion feels like disruption. Frame it as protecting the team: "Every step we delete is one less thing your team has to carry." Stability through simplicity is a message that lands with S-styles.',
     exercises: ['Role-play a direct accountability conversation with the S-style manager. Start with a mild scenario and build to a harder one. The goal is to build the muscle memory for directness in a safe environment before they need it in a real one.', 'Ask the S-style to identify the team member they have been most reluctant to address. Write out exactly what they would say in an accountability conversation. Review it with JB before they deliver it.', 'At the next check-in, ask the S-style: "What problem on your team have you known about for more than two weeks that you have not yet addressed directly?" The answer is always the coaching point.']
   },
@@ -1391,8 +1366,8 @@ const DISC_PROFILES = {
     accountability_style: 'Moderate  --  C-styles hold the standard firmly but struggle to deliver accountability feedback humanely. Their feedback is accurate and specific but can feel clinical or cold. Team members comply but do not grow.',
     feedback_approach: 'Lead with data  --  C-styles respect precision. Present the gap in numbers, reference the standard, and give them space to process before expecting a response. Avoid emotional language. Stick to the facts and the system.',
     jocko: 'C-styles are natural practitioners of Simplify  --  they document everything and build clean systems. The coaching challenge is Prioritize and Execute: under pressure, C-styles over-analyze and under-act. JB must coach the discipline of the good-enough decision made now over the perfect decision made too late.',
-    sinek: 'C-styles lead with How  --  they build systems and processes. The coaching challenge is connecting those systems to the Why. A C-style who can articulate why the 98% accuracy standard protects the law firm\'s client will enforce it with more conviction than one who sees it as a quality metric.',
-    biblical: 'C-styles resonate with integrity and stewardship  --  they are natural truth-tellers and careful stewards. The growth edge is Proverbs 27:17  --  iron sharpening iron. C-styles must learn to develop people, not just systems. A team member who is coached by a C-style only on process never grows as a person.',
+    sinek: 'C-styles lead with How  --  they build systems and processes. The coaching challenge is connecting those systems to the Why. A C-style who can articulate why the 98% accuracy standard protects the law firm's client will enforce it with more conviction than one who sees it as a quality metric.',
+    servant: 'C-styles resonate with integrity and stewardship  --  they are natural truth-tellers and careful stewards. The growth edge is Proverbs 27:17  --  iron sharpening iron. C-styles must learn to develop people, not just systems. A team member who is coached by a C-style only on process never grows as a person.',
     musk: 'C-styles are natural practitioners of the 5-Step Algorithm  --  they question requirements and document every step. The coaching challenge is Step 2: deletion. C-styles add process and documentation rather than deleting. Challenge every C-style manager: "What did you delete from your process this month?"',
     exercises: ['Give the C-style manager a scenario where they must make a decision with incomplete information in under five minutes. The goal is to build tolerance for action under uncertainty  --  the skill most missing in high-C managers.', 'Ask the C-style to deliver feedback to a team member using only two sentences. No data, no context, no qualifications. Two sentences. The constraint forces directness over precision.', 'Have the C-style identify one task they have been holding because it is not yet perfect enough to hand off. Require them to hand it off this week. Debrief what happened.']
   }
@@ -1445,7 +1420,7 @@ function generateDiscProfile(){
       <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;">
         <div>
           <div style="font-size:18px;font-weight:600;">${person}</div>
-          <div style="font-size:13px;color:#777;">${profileName ? profileName + ' &nbsp;&middot;&nbsp; ' : ''}${typeLabel}</div>
+          <div style="font-size:13px;color:#777;">${profileName ? profileName + ' &nbsp;.&nbsp; ' : ''}${typeLabel}</div>
         </div>
         <div style="background:${base.bg};color:${base.color};font-size:28px;font-weight:700;padding:8px 16px;border-radius:8px;">${primary}${secondary&&secondary!==primary?'/'+secondary:''}</div>
       </div>
@@ -1467,7 +1442,7 @@ function generateDiscProfile(){
     <div class="stitle">Leadership Framework Alignment  --  JB Coaching Notes</div>
     <div class="card surf"><h3>Jocko Willink  --  Extreme Ownership</h3><p>${base.jocko}</p></div>
     <div class="card surf"><h3>Simon Sinek  --  Start With Why</h3><p>${base.sinek}</p></div>
-    <div class="card surf"><h3>Servant Leadership Principles</h3><p>${base.biblical}</p></div>
+    <div class="card surf"><h3>Servant Leadership Principles</h3><p>${base.servant}</p></div>
     <div class="card surf"><h3>Elon Musk  --  First Principles</h3><p>${base.musk}</p></div>
     <div class="stitle">JB Coaching Exercises  --  Calibrated to ${typeLabel}</div>
     ${base.exercises.map((ex,i)=>`<div class="step"><div class="snum">${i+1}</div><div class="sbody"><p>${ex}</p></div></div>`).join('')}
@@ -1801,10 +1776,10 @@ function startFQ(){
 
 function renderFQuestions(qs, tierLabel){
   const c=document.getElementById('fquiz-qs'); c.innerHTML='';
-  c.insertAdjacentHTML('beforeend',`<div class="info" style="margin-bottom:14px;"><strong>${tierLabel}</strong> &nbsp;&middot;&nbsp; ${qs.length} scenarios &nbsp;&middot;&nbsp; Pass threshold: 80%</div>`);
+  c.insertAdjacentHTML('beforeend',`<div class="info" style="margin-bottom:14px;"><strong>${tierLabel}</strong> &nbsp;.&nbsp; ${qs.length} scenarios &nbsp;.&nbsp; Pass threshold: 80%</div>`);
   qs.forEach((q,qi)=>{
     const d=document.createElement('div'); d.className='qc';
-    d.innerHTML=`<div class="qn">Scenario ${qi+1} of ${qs.length} &nbsp;&middot;&nbsp; Performance Standards  --  ${tierLabel}</div>
+    d.innerHTML=`<div class="qn">Scenario ${qi+1} of ${qs.length} &nbsp;.&nbsp; Performance Standards  --  ${tierLabel}</div>
       <div class="qt">${q.text}</div>
       <div class="opts">${q.options.map((o,oi)=>`<label class="ol" id="fo-${qi}-${oi}"><input type="radio" name="fq${qi}" value="${oi}" onchange="fpick(${qi},${oi})"> ${o}</label>`).join('')}</div>`;
     c.appendChild(d);
@@ -1859,7 +1834,7 @@ function showTier1Pass(pct, fcor, total){
   res.innerHTML=`
     <div class="sc pass">
       <div class="sp2">${pct}%</div>
-      <div class="sl">${FMGR} &nbsp;&middot;&nbsp; Tier 1 passed &nbsp;&middot;&nbsp; ${fcor} of ${total} correct &nbsp;&middot;&nbsp; Advancing to Tier 2  --  Advanced</div>
+      <div class="sl">${FMGR} &nbsp;.&nbsp; Tier 1 passed &nbsp;.&nbsp; ${fcor} of ${total} correct &nbsp;.&nbsp; Advancing to Tier 2  --  Advanced</div>
     </div>
     <div class="ok" style="margin-bottom:16px;"><strong>Tier 1 complete.</strong> Score of ${pct}% meets the 80% threshold. You are now advancing to Tier 2  --  Advanced scenarios. These are harder. They involve mixed fact/emotion content, documentation edge cases, and situations where the correct answer is less obvious. The same 80% standard applies.</div>
     <div class="sr"><button class="pr" onclick="launchTier2()">Begin Tier 2  --  Advanced &rarr;</button></div>`;
@@ -1909,7 +1884,7 @@ function showFRes(fcor, total, tier, t1cor, t1total){
   res.innerHTML=`
     <div class="sc ${pass?'pass':'fail'}">
       <div class="sp2">${pct}%</div>
-      <div class="sl">${FMGR} &nbsp;&middot;&nbsp; ${tierLabel} &nbsp;&middot;&nbsp; ${fcor} of ${total} correct &nbsp;&middot;&nbsp; ${pass?'&#10003; Meets 80% standard':'&#10007; Below 80%'}</div>
+      <div class="sl">${FMGR} &nbsp;.&nbsp; ${tierLabel} &nbsp;.&nbsp; ${fcor} of ${total} correct &nbsp;.&nbsp; ${pass?'PASS Meets 80% standard':'FAIL Below 80%'}</div>
     </div>
     ${t1Summary}
     ${missedHTML}
@@ -1931,80 +1906,6 @@ function resetFQ(){
   FANS=[]; FDONE=false; FTIER=1; FT1_SCORE=0;
   document.getElementById('fquiz-qs').innerHTML='';
 }
-
-// Ensure all nav functions are on window scope for Safari onclick compatibility
-window.nav = nav;
-
-// Delegated event listener for all navigation - CSP safe
-document.addEventListener('click', function(e) {
-  var el = e.target;
-  // Walk up to find a button with data attributes
-  while(el && el.tagName !== 'BUTTON' && el !== document.body) {
-    el = el.parentElement;
-  }
-  if(!el) return;
-
-  var navTarget = el.getAttribute('data-nav');
-  var subFn = el.getAttribute('data-subfn');
-  var subTarget = el.getAttribute('data-sub');
-  var quizSub = el.getAttribute('data-quizsub');
-  var intakeSub = el.getAttribute('data-intakesub');
-  var logSub = el.getAttribute('data-logsub');
-  var caseSub = el.getAttribute('data-casesub');
-  var recSub = el.getAttribute('data-recsub');
-  var billSub = el.getAttribute('data-billsub');
-  var discSub = el.getAttribute('data-discsub');
-  var factsSub = el.getAttribute('data-factssub');
-  var jbSub = el.getAttribute('data-jbsub');
-
-  if(navTarget) {
-    nav(navTarget);
-    if(subFn && subTarget) {
-      if(subFn === 'showJBSub') showJBSub(subTarget);
-      else if(subFn === 'showDiscSub') showDiscSub(subTarget);
-      else if(subFn === 'showFactsSub') showFactsSub(subTarget);
-      else if(subFn === 'showQuizSub') showQuizSub(subTarget);
-      else if(subFn === 'showLogSub') showLogSub(subTarget);
-      else if(subFn === 'showCaseSub') showCaseSub(subTarget);
-      else if(subFn === 'showRecSub') showRecSub(subTarget);
-      else if(subFn === 'showBillSub') showBillSub(subTarget);
-      else if(subFn === 'showSub') showSub(subTarget);
-    }
-  }
-  if(quizSub) showQuizSub(quizSub);
-  if(intakeSub) showSub(intakeSub);
-  if(logSub) showLogSub(logSub);
-  if(caseSub) showCaseSub(caseSub);
-  if(recSub) showRecSub(recSub);
-  if(billSub) showBillSub(billSub);
-  if(discSub) showDiscSub(discSub);
-  if(factsSub) showFactsSub(factsSub);
-  if(jbSub) showJBSub(jbSub);
-});
-
-window.showSub = showSub;
-window.showQuizSub = showQuizSub;
-window.showJBSub = showJBSub;
-window.showFactsSub = showFactsSub;
-window.showDiscSub = showDiscSub;
-window.showLogSub = showLogSub;
-window.showCaseSub = showCaseSub;
-window.showRecSub = showRecSub;
-window.showBillSub = showBillSub;
-window.startQ = startQ;
-window.submitQ = submitQ;
-window.resetQ = resetQ;
-window.pick = pick;
-window.startFQ = startFQ;
-window.submitFQ = submitFQ;
-window.resetFQ = resetFQ;
-window.fpick = fpick;
-window.generateDiscProfile = generateDiscProfile;
-window.saveDiscResult = saveDiscResult;
-window.renderDiscMap = renderDiscMap;
-window.renderResultsBoard = renderResultsBoard;
-window.clearResults = clearResults;
-window.launchTier2 = launchTier2;
 </script>
 </body>
 </html>
